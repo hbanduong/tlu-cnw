@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Đỗ Quyên",
+    "desc": "Hoa đỗ quyên có nhiều màu sắc rực rỡ như hồng, đỏ, trắng và tím, thường nở vào mùa xuân. Cánh hoa mềm mại, mịn màng, tạo thành các chùm hoa lớn, tượng trưng cho sự thịnh vượng và may mắn.",
+    "path": "images/doquyen.jpg"
+  },
+  {
+    "name": "Hải Đường",
+    "desc": "Hoa hải đường mang vẻ đẹp thanh tao, với cánh hoa màu đỏ, hồng hoặc trắng. Loài hoa này thường nở vào mùa đông, mang đến sự tươi mới và ấm áp, biểu trưng cho tình yêu, sự quý phái và bền bỉ.",
+    "path": "images/haiduong.jpg"
+  },
+  {
+    "name": "Mai",
+    "desc": "Hoa mai vàng nở vào dịp Tết Nguyên Đán, là biểu tượng của sự may mắn và tài lộc. Cánh hoa mỏng manh, màu vàng rực rỡ, thường được trưng bày trong những ngày đầu năm để cầu mong sự an lành, thịnh vượng.",
+    "path": "images/mai.jpg"
+  },
+  {
+    "name": "Tường Vy",
+    "desc": "Hoa tường vy có màu sắc nhẹ nhàng với các gam màu như trắng, hồng, tím. Hoa nở thành chùm, mang vẻ đẹp dịu dàng, thanh thoát, thường được trồng làm cảnh trong vườn hoặc ven đường.",
+    "path": "images/tuongvy.jpg"
+  }
+]
