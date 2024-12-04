@@ -7,12 +7,11 @@
     <title>Document</title>
 
     <!-- bootstrap -->
-    <link rel="stylesheet" href="../../../assets/bootstrap/bootstrap.min.css">
-    <script defer src="../../../assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> -->
 
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-    <!-- <link rel="stylesheet" href="assets/fontawesome/all.min.css"> -->
+    <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.min.css">
+    <script defer src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
