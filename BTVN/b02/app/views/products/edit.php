@@ -17,7 +17,7 @@
 <body>
 
     <div class="container">
-        <h1 class="text-center mb-4">Sửa sản phẩm</h1>
+        <h2 class="text-center mb-4">Sửa sản phẩm</h2>
         <form action="index.php?action=edit&id=<?= $product['id'] ?>" method="POST" class="form">
             <div class="mb-3">
                 <label for="name" class="form-label">Tiêu đề</label>

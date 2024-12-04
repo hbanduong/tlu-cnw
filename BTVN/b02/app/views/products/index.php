@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.min.css">
     <script defer src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
 
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
     <title>Danh sách sản phẩm</title>
 </head>
 
 <body>
     <div class="container mt-4">
-        <h1 class="text-center mb-4">Danh sách sản phẩm</h1>
+        <h2 class="text-center mb-4">Danh sách sản phẩm</h2>
         <a href="index.php?action=create" class="btn btn-primary mb-3">Thêm sản phẩm</a>
         <?php if (!empty($products)) : ?>
             <table class="table table-bordered table-striped">
@@ -24,7 +27,8 @@
                         <th>ID</th>
                         <th>Tên</th>
                         <th>Giá</th>
-                        <th>Hành động</th>
+                        <th>Sửa</th>
+                        <th>Xoá</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -34,8 +38,14 @@
                             <td><?= htmlspecialchars($product['name']) ?></td>
                             <td><?= number_format($product['price'], 0, ',', '.') ?> VND</td>
                             <td>
-                                <a href="index.php?action=edit&id=<?= $product['id'] ?>" class="btn btn-warning btn-sm">Sửa</a>
-                                <a href="index.php?action=delete&id=<?= $product['id'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc chắn muốn xóa không?')">Xóa</a>
+                                <a href="index.php?action=edit&id=<?= $product['id'] ?>" class="btn btn-warning btn-sm">
+                                    <i class='fa-solid fa-pen-to-square'></i>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="index.php?action=delete&id=<?= $product['id'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc chắn muốn xóa không?')">
+                                    <i class='fa-solid fa-trash'></i>
+                                </a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
