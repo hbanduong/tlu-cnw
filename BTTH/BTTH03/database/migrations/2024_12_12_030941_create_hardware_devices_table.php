@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('device_name');
             $table->enum('type', ['Mouse', 'Keyboard', 'Headset']);
             $table->boolean('status');
-            $table->unsignedBigInteger('it_center_id');
-            $table->foreign('it_center_id')->references('it_center_id')->on('it_centers')->onDelete('cascade');
+            $table->unsignedBigInteger('center_id');
+            $table->foreign('center_id')->references('it_center_id')->on('it_centers')->onDelete('cascade');
             $table->timestamps();
         });
     }

@@ -17,6 +17,7 @@ return new class extends Migration
             $table->foreign('computer_id')->references('computer_id')->on('computers')->onDelete('cascade');
             $table->string('reported_by', 50);
             $table->dateTime('reported_date');
+            $table->text('description');
             $table->enum('urgency', ['Low', 'Medium', 'High']);
             $table->enum('status', ['Open', 'In Progress', 'Resolved']);
             $table->timestamps();

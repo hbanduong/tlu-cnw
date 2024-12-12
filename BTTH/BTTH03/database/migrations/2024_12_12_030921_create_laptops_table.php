@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('brand');
             $table->string('model');
             $table->string('specifications');
-            $table->boolean('renter_status');
+            $table->boolean('rental_status');
             $table->unsignedBigInteger('renter_id');
             $table->foreign('renter_id')->references('renter_id')->on('renters')->onDelete('cascade');
             $table->timestamps();
