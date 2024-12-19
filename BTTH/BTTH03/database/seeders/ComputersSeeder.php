@@ -21,7 +21,7 @@ class ComputersSeeder extends Seeder
                 'computer_name' => 'Lab' . $faker->randomNumber(1) . '-PC' . $faker->randomNumber(2),
                 'model' => $faker->randomElement(['Dell', 'Lenovo', 'Asus', 'Acer']) . ' ' . $faker->randomElement(['Pro', 'Max', 'Gaming']) . ' ' . $faker->randomNumber(2),
                 'operating_system' => $faker->randomElement(['Windows 10', 'Windows 11', 'Linux Mint', 'Ubuntu', 'Arch Linux', 'Fedora']),
-                'processor' => $faker->randomElement(['AMD', 'Intel Xeon', 'AMD Ryzen', 'Intel Core']) . ' ' . $faker->randomNumber(3),
+                'processor' => $faker->randomElement(['AMD Ryzen 3', 'AMD Ryzen 5', 'AMD Ryzen 7', 'AMD Ryzen 9', 'Intel Core i3', 'Intel Core i5', 'Intel Core i7', 'Intel Core i9']),
                 'memory' => $faker->randomElement([8, 16, 24, 32]),
                 'available' => $faker->boolean,
                 'created_at' => now(),
