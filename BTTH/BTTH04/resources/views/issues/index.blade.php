@@ -364,7 +364,7 @@
                             <td>{{ $issue->urgency }}</td>
                             <td>{{ $issue->status }}</td>
                             <td>
-                                <a href="{{ route('issues.edit', $issue->id) }}" class="btn btn-primary">Edit</a>
+                                <a href="{{ route('issues.edit', $issue->id) }}" class="btn btn-primary text-white">Edit</a>
 
                                 <!-- Nút xóa kèm modal xác nhận -->
                                 <button type="button" class="btn btn-danger" data-bs-toggle="modal"
